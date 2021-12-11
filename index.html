@@ -18,10 +18,12 @@
     <body>
         <h1>Salary Calculator</h1>
 
-        <div id="errorMessage"></div>
+        
     <!--Add addEmployee form-->
 
-    <form>
+    <div id="errorMessage"></div>
+
+    <form id="addEmployee">
         <!---Name input-->
         <input
         id= "nameInput"
@@ -32,7 +34,7 @@
         <!--Last Name input-->
 
         <input
-        id= "nameInput"
+        id= "LastNameInput"
         type="text"
         placeholder=" Last Name"
 
@@ -41,7 +43,7 @@
         <!--ID input-->
 
         <input
-        id= "nameInput"
+        id= "NumberInput"
         type="text"
         placeholder="ID"
 
@@ -49,7 +51,7 @@
 
         <!--Title Input-->
         <input
-        id= "nameInput"
+        id= "TitleInput"
         type="text"
         placeholder="Title"
 
@@ -57,9 +59,10 @@
 
         <!--Annual Salary input-->
         <input
-        id= "nameInput"
+        id= "SalaryInput"
         type="number"
         placeholder="Annual Salary"
+        step="any"
 
         />
 
@@ -89,6 +92,11 @@
                 <td>4521</td>
                 <td>Team Lead</td>
                 <td>80,000</td>
+                <td>
+                    <button class="deleteBtn">
+                        Delete
+                    </button>
+                </td>
             </tr>
             <tr>
                 <td>Maurice</td>
@@ -96,6 +104,11 @@
                 <td>8724</td>
                 <td>Support Team</td>
                 <td>58,000</td>
+                <td>
+                    <button class="deleteBtn">
+                        Delete
+                    </button>
+                </td>
             </tr>
             <tr>
                 <td>Roy</td>
@@ -103,6 +116,11 @@
                 <td>9623</td>
                 <td>Quality Assurance</td>
                 <td>48,000</td>
+                <td>
+                    <button class="deleteBtn">
+                        Delete
+                    </button>
+                </td>
             </tr>
         </tbody>
     </table>
