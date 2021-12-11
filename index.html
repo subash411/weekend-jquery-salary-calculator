@@ -11,7 +11,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="jquery-3.6.0.js" charset="utf-8"></script>
-       <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
 
     </head>
@@ -23,7 +24,7 @@
 
     <div id="errorMessage"></div>
 
-    <form id="addEmployee">
+    <form id="addEmployee" class="container">
         <!---Name input-->
         <input
         id= "nameInput"
@@ -44,7 +45,7 @@
 
         <input
         id= "NumberInput"
-        type="text"
+        type="number"
         placeholder="ID"
 
         />
@@ -74,7 +75,7 @@
         />
     </form>
 
-    <table>
+    <table class="container table table-bordered">
         <thead>
             <tr>
                 <th>FirstName</th>
@@ -85,7 +86,7 @@
                 <th></th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id= "nameList">
             <tr>
                 <td>Jen</td>
                 <td>Barber</td>
