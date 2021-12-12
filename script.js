@@ -52,7 +52,7 @@ function onAddEmployee(event) {
      //Empty <tbody>
      $('#nameList').empty();
 
-    for (let name of  Newemployee){
+    for (let employee of  Newemployee){
         $('#nameList').append(`
         <tr>
                 <td>${employee.FirstName}</td>
@@ -68,7 +68,7 @@ function onAddEmployee(event) {
             </tr>
         `);
     }
-     
     
+
     
 }
